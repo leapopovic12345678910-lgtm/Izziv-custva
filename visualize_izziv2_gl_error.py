@@ -6,8 +6,8 @@ from statistics import mean
 
 
 BASE_DIR = Path(__file__).resolve().parent
-INPUT = BASE_DIR / "data/processed/izziv2_GL_euclidean_error.csv"
-OUTPUT = BASE_DIR / "data/processed/izziv2_GL_euclidean_error_visualization.html"
+INPUT = BASE_DIR / "data/processed/izziv2_GL_weighted_rmse_gt_valence_error.csv"
+OUTPUT = BASE_DIR / "data/processed/izziv2_GL_weighted_rmse_gt_valence_error_visualization.html"
 
 CLIP_ORDER = ["ples", "hodnik", "restavracija"]
 METHOD_ORDER = ["yellow", "blue", "red", "green"]
